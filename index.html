@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking-Hub</title>
+
+    <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ✅ Navbar (Layout SAME, sirf transparent) -->
+<nav class="navbar navbar-expand-md navbar-dark position-absolute w-100 inter-font" 
+     style="font-weight:600; z-index:10;">
+
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand some" href="#">
+        <img src="./images/5e29c2fb93928edaef7353380f2d303925555510.png" height="130px">
+    </a>
+
+    <!-- Toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- MENU (ORIGINAL STRUCTURE SAME) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" style="color: #E9BD8C;" href="#Home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Blog">Blog</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Contact">Contact Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Services">Services</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+
+<!-- ✅ Hero Section -->
+<div class="hero" id="Home">
+
+  <div class="container hero-content h-100 d-flex align-items-center">
+
+    <div class="col-md-6 text-white pt-5">
+
+      <span style="color:#E9BD8C; font-weight:600;" class="text-uppercase inter-font">
+        Delicious Cafe
+      </span>
+
+      <h1 class="mb-4 mt-2 display-4 fw-bold sansita-font">
+        Sweet Treats, <br> Perfect Eats
+      </h1>
+
+      <div class="mt-5">
+
+        <a href="#" class="btn text-white me-2"
+           style="background-color:#933C24; padding:10px 20px;">
+           Shop Now
+        </a>
+
+        <a href="#" class="btn inter-font"
+           style="padding:10px 20px; color: #E9BD8C;font-weight: 500;">
+           Learn More
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- focus boxes -->
+ <div class="container py-5" id="Blog">
+
+  <h1 class="text-center mb-5 sansita-font pt-5 pb-5">Top Products</h1>
+
+  <div class="row g-3 pb-5">
+
+    <!-- CARD 1 -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card-custom">
+        <img src="./images/97e59e01c887ac6803df18e7b2cb507b8a25fee1.png" alt="bread" height="250px" width="200px" class="crad-1">
+
+        <div class="card-body-custom">
+
+          <div class="top-row mb-2">
+            <h5 class="mb-0 inter-font">$40</h5>
+            <div class="info-icon">i</div>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <span class="mb-3 text-sm mt-3 inter-font">
+              Whole Grain<br>Bread
+            </span>
+
+            <button class="btn text-light add-btn my-4 inter-font">
+              Add
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="col-lg-4 col-md-6 col-12 ">
+      <div class="card-custom">
+        <img class="mt-4" src="./images/a7f75c2826118e54873f1ef99bf0ba6b11888d29.png" alt="bread" height="200px" width="200px">
+        <div class="card-body-custom">
+          <div class="top-row mb-2">
+            <h5 class="mb-0 inter-font">$40</h5>
+            <div class="info-icon">i</div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span class="mb-3 text-sm mt-3 inter-font">
+              Whole Grain<br>Bread
+            </span>
+            <button class="btn text-light add-btn my-4 inter-font">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="col-lg-4 col-md-6 col-12 ">
+      <div class="card-custom card-3">
+        <img  src="./images/2338d12e053467216c27e979b91b886dee8d5050.png" alt="bread"height="250px" width="300px" >
+    
+        <div class="card-body-custom">
+          <div class="top-row mb-2">
+            <h5 class="mb-0 inter-font">$40</h5>
+            <div class="info-icon">i</div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span class="mb-3 text-sm mt-3 inter-font">
+              Whole Grain<br>Bread
+            </span>
+            <button class="btn text-light add-btn my-4 inter-font">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="col-lg-4 col-md-6 col-12 ">
+      <div class="card-custom card-4">
+        <img  src="./images/1e9e64552bf7b232daa4125196fdbb1c5fc17a65.png" alt="bread"height="200px" width="250px">
+        <div class="card-body-custom">
+          <div class="top-row mb-2">
+            <h5 class="mb-0 inter-font">$40</h5>
+            <div class="info-icon">i</div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span class="mb-3 text-sm mt-3 inter-font">
+              Whole Grain<br>Bread
+            </span>
+            <button class="btn text-light add-btn my-4 inter-font">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="col-lg-4 col-md-6 col-12 ">
+      <div class="card-custom card-5">
+        <img src="./images/cd8c4236c3daaa4b21917d202d2755e0c2585a9e.png" alt="bread" height="200px" width="300px">
+        <div class="card-body-custom">
+          <div class="top-row mb-2">
+            <h5 class="mb-0 inter-font">$40</h5>
+            <div class="info-icon">i</div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span class="mb-3 text-sm mt-3 inter-font">
+              Whole Grain<br>Bread
+            </span>
+            <button class="btn text-light add-btn my-4 inter-font">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="col-lg-4 col-md-6 col-12 ">
+      <div class="card-custom card-6">
+        <img src="./images/9bc567a1cfb4efca5891740762e628f4099acf18.png" alt="bread"height="230px" width="230px">
+        <div class="card-body-custom">
+          <div class="top-row mb-2">
+            <h5 class="mb-0 inter-font">$40</h5>
+            <div class="info-icon">i</div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span class="mb-3 text-sm mt-3 inter-font">
+              Whole Grain<br>Bread
+            </span>
+            <button class="btn text-light add-btn my-4 inter-font">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Second herosection -->
+ <div class=" container-fluid text-center bg-image rounded-3 " style="
+    background-image: url('./images/40483f228f559f53b01a360fa529321393f3fd73.png');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  " id="Services">
+  <div class="mask">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3 head sansita-font pt-5">20% Off  Your <br> First Order</h1>
+        <h4 class="mb-3 sub-head inter-font">Sweet Treats, Sweeter Prices. <br>
+Indulge for Less: Freshly Baked, Deeply <br> Discounted <br>
+More Flavor, Less Flourish Price <br>
+Premium Baking, Pocket-Friendly Prices</h4>
+        <a data-mdb-ripple-init class="btn btn-lg text-light py-2 px-4 fw-normal " href="#!" role="button" style="background-color: #933C24;" >Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Tabs section -->
+<section class="explore-section">
+  <h2 class="section-title">Explore More</h2>
+
+  <!-- Tabs -->
+  <div class="tabs-wrapper">
+    <button class="tab-btn active" data-tab="cake">Cake</button>
+    <button class="tab-btn" data-tab="muffins">Muffins</button>
+    <button class="tab-btn" data-tab="croissant">Croissant</button>
+    <button class="tab-btn" data-tab="bread">Bread</button>
+    <button class="tab-btn" data-tab="tart">Tart</button>
+    <button class="tab-btn" data-tab="favorite">Favorite</button>
+  </div>
+
+  <!-- Cake Panel -->
+  <div class="tab-panel active" id="tab-cake">
+    <div class="grid-img-wrap"><img src="./images/0e6302d7cc4ca3661ca690661d277e80b00e528d.png" alt="Cake 1"/></div>
+    <div class="grid-img-wrap"><img src="./images/5b5b4d5bcb1ea430dda4fb6df10b6afe11348ab4.png" alt="Cake 2"/></div>
+    <div class="grid-img-wrap"><img src="./images/7c449960a1a3de044a8efd658a3902398d42949d.png" alt="Cake 3"/></div>
+    <div class="grid-img-wrap"><img src="./images/85af8d8c88c004c1ba511939337df5bdbe18a75f.png" alt="Cake 4"/></div>
+    <div class="grid-img-wrap"><img src="./images/b84a88b6c207d3d302cd250030cab2c18a6c4704.png" alt="Cake 5"/></div>
+    <div class="grid-img-wrap"><img src="./images/f377b12e77a675f1963f86b9fe34d1b41c47189c.png" alt="Cake 6"/></div>
+  </div>
+
+  <!-- Muffins Panel -->
+  <div class="tab-panel" id="tab-muffins">
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80" alt="Muffin 1"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400&q=80" alt="Muffin 2"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=400&q=80" alt="Muffin 3"/></div>
+    <div class="grid-img-wrap"><img src="https://assets.epicurious.com/photos/596d1315ca5db8038f8fa833/1:1/w_2560%2Cc_limit/How-To-Make-Blueberry-Muffins-071220171848.jpg" alt="Muffin 4"/></div>
+    <div class="grid-img-wrap"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJG6oG91wzwNnfKQlhKgZ3RJdyGWXeGn3at8qOinHdfk4gxFKjowUTDNh2&s=10" alt="Muffin 5"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1571748982800-fa51082c2224?w=400&q=80" alt="Muffin 6"/></div>
+  </div>
+
+  <!-- Croissant Panel -->
+  <div class="tab-panel" id="tab-croissant">
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80" alt="Croissant 1"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80" alt="Croissant 2"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=400&q=80" alt="Croissant 3"/></div>
+    <div class="grid-img-wrap"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUNfidAubtMIrRKRErz6XMeneqxv7z4Wre_8XZUoQlfQ&s" alt="Croissant 4"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1623334044303-241021148842?w=400&q=80" alt="Croissant 5"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1568471173242-461f0a730452?w=400&q=80" alt="Croissant 6"/></div>
+  </div>
+
+  <!-- Bread Panel -->
+  <div class="tab-panel" id="tab-bread">
+    <div class="grid-img-wrap"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRNC35cPJHDUGqAs5kSP586_LQoHwp8v2ra_exRjMCQ&s" alt="Bread 1"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=400&q=80" alt="Bread 2"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80" alt="Bread 3"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=400&q=80" alt="Bread 4"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&q=80" alt="Bread 5"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?w=400&q=80" alt="Bread 6"/></div>
+  </div>
+
+  <!-- Tart Panel -->
+  <div class="tab-panel" id="tab-tart">
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=400&q=80" alt="Tart 1"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?w=400&q=80" alt="Tart 2"/></div>
+    <div class="grid-img-wrap"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR78reW0fV55eayetAueXg6CsUfO9zzJRxoJLl0BuWa1f_HHsVZmCYsWQ&s=10" alt="Tart 3"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&q=80" alt="Tart 4"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80" alt="Tart 5"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400&q=80" alt="Tart 6"/></div>
+  </div>
+
+  <!-- Favorite Panel -->
+  <div class="tab-panel" id="tab-favorite">
+    <div class="grid-img-wrap"><img src="./images/6508ba92a5c382d491c8c1e941b42fe263099eaa.png" alt="Fav 1"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Fav 2"/></div>
+    <div class="grid-img-wrap"><img src="./images/f377b12e77a675f1963f86b9fe34d1b41c47189c.png" alt="Fav 3"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&q=80" alt="Fav 4"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80" alt="Fav 5"/></div>
+    <div class="grid-img-wrap"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80" alt="Fav 6"/></div>
+  </div>
+
+</section>
+ <div class=" container-fluid text-center bg-image rounded-3 " style="
+    background-image: url('./images/680114d925b6e6f47bf7aeab7dbae21f97791d67.png');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  ">
+  <div class="mask pt-3">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3 head sansita-font pt-5 text-light">About Us</h1>
+        <h4 class="mb-3 sub-head inter-font" style="color: #B9B9B9;">Organize products by intuitive categories <br> (breads, pastries, cakes, etc.) <br>
+Include specialty categories like dietary <br> options (gluten-free, vegan) <br>
+Make occasion-based shopping easy <br> (birthdays, holidays, celebrations)</h4>
+        <a data-mdb-ripple-init class="btn btn-lg text-light py-2 px-4 fw-normal " href="#!" role="button" style="background-color: #933C24;" >Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="featured-section mt-5 mb-4" id="Services">
+  <div class="container">
+ 
+    <h2 class="section-title ">Featured Treats</h2>
+ 
+    <div class="row g-4 justify-content-center">
+ 
+      <!-- Puff Pastry -->
+      <div class="col-12 col-sm-6 col-lg-4 treat-col">
+        <div class="treat-card">
+          <div class="treat-img-wrap">
+            <!--
+              REPLACE src with your puff pastry image path.
+              Example: src="images/puff-pastry.jpg"
+            -->
+            <img
+              src="./images/6508ba92a5c382d491c8c1e941b42fe263099eaa.png"
+              alt="Puff Pastry"
+              class="treat-img trt-img-1"
+            />
+          </div>
+          <div class="treat-info">
+            <p class="treat-name">Puff Pastry</p>
+            <p class="treat-price">$8</p>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Doughnuts -->
+      <div class="col-12 col-sm-6 col-lg-4 treat-col">
+        <div class="treat-card">
+          <div class="treat-img-wrap">
+            <!--
+              REPLACE src with your doughnuts image path.
+              Example: src="images/doughnuts.jpg"
+            -->
+            <img
+              src="./images/a98aec68552cf436d8c1557de624a37bcd929fe2.png"
+              alt="Doughnuts"
+              class="treat-img trt-img-2"
+            />
+          </div>
+          <div class="treat-info">
+            <p class="treat-name">Doughnuts</p>
+            <p class="treat-price">$8</p>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Brownies -->
+      <div class="col-12 col-sm-6 col-lg-4 treat-col">
+        <div class="treat-card">
+          <div class="treat-img-wrap">
+            <!--
+              REPLACE src with your brownies image path.
+              Example: src="images/brownies.jpg"
+            -->
+            <img
+              src="./images/5b38868b7d37d1959035b24828e4298016918f90.png"
+              alt="Brownies"
+              class="treat-img trt-img-3"
+            />
+          </div>
+          <div class="treat-info">
+            <p class="treat-name">Brownies</p>
+            <p class="treat-price">$8</p>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+
+
+ 
+<!-- footer -->
+    
+       <!-- Footer -->
+<footer>
+ 
+  <!-- ══ TOP BAR ══════════════════════════════════ -->
+  <div class="ft-topbar mt-5" id="Contact">
+    <!-- Logo -->
+    <a class="ft-logo" href="#">
+      <img src="./images/5e29c2fb93928edaef7353380f2d303925555510.png" alt="" width="160px" height="160px">
+    </a>
+ 
+    <!-- Follow us -->
+    <div class="ft-follow ">
+      <span class="ft-follow-label inter-font ">Follow Us</span>
+      <div class="ft-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#" style="font-size:12px;"><i class="fas fa-phone-alt"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+ 
+  </div>
+  <hr class="ft-divider">
+  <!-- ══ COLUMNS ══════════════════════════════════ -->
+  <div class="ft-body">
+    <div class="row g-4 g-xl-5 align-items-start">
+ 
+      <!-- About Us -->
+      <div class="col-12 col-md-4 col-lg-3">
+        <h5 class="ft-heading inter-font">About Us</h5>
+        <p class="ft-about-text inter-font">
+          0320105030<br>
+          info@modrino.co.uk<br>
+          Hyderabad City<br>
+          Pakistan, Hyderabad
+        </p>
+      </div>
+ 
+      <!-- Explore -->
+      <div class="col-12 col-md-3 col-lg-2">
+        <h5 class="ft-heading inter-font">Explore</h5>
+        <div class="ft-explore inter-font">
+          <a href="#Home">Home</a>
+          <a href="#Blog">Blog</a>
+          <a href="#Contact">Contact us</a>
+          <a href="#Services">Services</a>
+        </div>
+      </div>
+ 
+      <!-- Recent News -->
+      <div class="col-12 col-md-5 col-lg-4 ms-lg-auto">
+        <h5 class="ft-heading inter-font">Recent News</h5>
+ 
+        <!-- item 1 -->
+        <div class="ft-news-item">
+          <div class="ft-news-thumb">
+            <!-- Swap src with your real image path -->
+            <img src="./images/75ac94df6b37db1055b0b2b85bc855f5a64da56f.png" alt="Puff Pastry"
+                 onerror="this.style.display='none'">
+            <!-- SVG pastry fallback -->
+          
+          </div>
+          <div>
+            <span class="ft-news-date inter-font">June 14, 2024</span>
+            <p class="ft-news-title">Puff pastry bliss.</p>
+          </div>
+        </div>
+ 
+        <!-- item 2 -->
+        <div class="ft-news-item">
+          <div class="ft-news-thumb">
+            <img src="./images/4e0efc8a959ccd3bde46bbf674c19df6014eb144.png" alt="Puff Pastry 2"
+                 onerror="this.style.display='none'">
+    
+          </div>
+          <div>
+            <span class="ft-news-date inter-font">June 14, 2024</span>
+            <p class="ft-news-title inter-font">Puff pastry bliss.</p>
+          </div>
+        </div>
+ 
+      </div>
+ 
+    </div>
+  </div>
+ 
+  <!-- ══ DIVIDER + COPYRIGHT ══════════════════════ -->
+  <hr class="ft-divider">
+  <div class="ft-copy inter-font">
+    © 2026 Bake House. All rights reserved
+  </div>
+ 
+</footer>
+<!-- Footer -->
+
+
+ <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const tabs = document.querySelectorAll('.tab-btn');
+  const panels = document.querySelectorAll('.tab-panel');
+
+  tabs.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+
+      btn.classList.add('active');
+      document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
